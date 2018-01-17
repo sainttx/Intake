@@ -25,6 +25,12 @@ import com.google.common.primitives.Chars;
 import com.sk89q.intake.*;
 import com.sk89q.intake.argument.Namespace;
 import com.sk89q.intake.parametric.handler.InvokeListener;
+import com.sk89q.intake.Command;
+import com.sk89q.intake.CommandCallable;
+import com.sk89q.intake.Description;
+import com.sk89q.intake.ImmutableDescription;
+import com.sk89q.intake.InvocationCommandException;
+import com.sk89q.intake.Require;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;

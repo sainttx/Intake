@@ -23,6 +23,9 @@ import com.google.common.base.Joiner;
 import com.google.common.collect.Lists;
 import com.sk89q.intake.*;
 import com.sk89q.intake.argument.*;
+import com.sk89q.intake.Command;
+import com.sk89q.intake.CommandException;
+import com.sk89q.intake.ImmutableDescription;
 import com.sk89q.intake.parametric.ArgumentParser;
 
 import java.lang.annotation.Annotation;

@@ -29,6 +29,9 @@ import com.sk89q.intake.argument.*;
 import com.sk89q.intake.parametric.annotation.Classifier;
 import com.sk89q.intake.parametric.annotation.Optional;
 import com.sk89q.intake.parametric.annotation.Switch;
+import com.sk89q.intake.ImmutableParameter;
+import com.sk89q.intake.OptionType;
+import com.sk89q.intake.Parameter;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Type;

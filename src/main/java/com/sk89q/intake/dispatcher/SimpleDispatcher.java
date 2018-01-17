@@ -26,6 +26,17 @@ import com.sk89q.intake.*;
 import com.sk89q.intake.argument.CommandContext;
 import com.sk89q.intake.argument.Namespace;
 import com.sk89q.intake.util.auth.AuthorizationException;
+import com.sk89q.intake.CommandCallable;
+import com.sk89q.intake.CommandException;
+import com.sk89q.intake.CommandMapping;
+import com.sk89q.intake.Description;
+import com.sk89q.intake.ImmutableCommandMapping;
+import com.sk89q.intake.ImmutableDescription;
+import com.sk89q.intake.ImmutableParameter;
+import com.sk89q.intake.InvalidUsageException;
+import com.sk89q.intake.InvocationCommandException;
+import com.sk89q.intake.OptionType;
+import com.sk89q.intake.Parameter;
 
 import java.util.ArrayList;
 import java.util.Arrays;

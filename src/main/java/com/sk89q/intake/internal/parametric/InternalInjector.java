@@ -20,8 +20,13 @@
 package com.sk89q.intake.internal.parametric;
 
 import com.sk89q.intake.argument.ArgumentException;
-import com.sk89q.intake.parametric.*;
 import com.sk89q.intake.argument.CommandArgs;
+import com.sk89q.intake.parametric.Binding;
+import com.sk89q.intake.parametric.Injector;
+import com.sk89q.intake.parametric.Key;
+import com.sk89q.intake.parametric.Provider;
+import com.sk89q.intake.parametric.ProvisionException;
+import com.sk89q.intake.parametric.Module;
 import com.sk89q.intake.parametric.provider.DefaultModule;
 
 import javax.annotation.Nullable;
